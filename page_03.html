@@ -96,42 +96,32 @@
                     </div>
                 </div>
                 
-                <div class="tab-content-wrapper bg-white-box">
-                    <div id="tab-content" class="uk-switcher uk-margin ">
-                        <div class="generellt-dettail tab-inner-content">tab-1</div>
+                <div class="tab-content-wrapper bg-white-box p-0">
+                    <div id="tab-content" class="uk-switcher">
+                        <!------ tab GENERAL INFO ------->
+                        <div class="generellt-dettail tab-inner-content">
+                            <div class="p-4">tab-1</div>
+                        </div>
+
+                        <!------ tab details ------->
                         <div class="details-dettail tab-inner-content">
-                            <p class="text-address">RIW - 789, SANDOR SANDSTRÖM SAND, HUVUDET I SANDEN</p>
-                            <br>
                             <div class="row">
-                                <div class="col-md-8 border-div-image pe-3">
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Konstnär</label></div>
-                                        <div class="col-md-4">
-                                            <div class="dropdown-item-wrapper" uk-dropnav="mode: click">
-                                                <button class="title">Sandor Sandstrom Sand <span uk-drop-parent-icon></span></button>
-                                                <div class="uk-dropdown custom-dropdown-content">
-                                                    <div class="items-list">
-                                                        <div class="input-group-addon icon-right border-0">
-                                                            <input type="search" name="" id="" placeholder="Search">
-                                                            <i class="ph ph-magnifying-glass icon"></i>
-                                                        </div>
-                                                        <div class="items-list scroller-165">
-                                                            <a href="" class="item">Collage</a>
-                                                            <a href="" class="item">Fotografi</a>
-                                                            <a href="" class="item">Grafik</a>
-                                                            <a href="" class="item">Objekt</a>
-                                                            <a href="" class="item">Skulptur</a>
-                                                            <a href="" class="item">item 6</a>
-                                                            <a href="" class="item">item 7</a>
-                                                        </div>
-                                                        <a href="" class="item-option"><i class="ph ph-pencil-simple"></i> Add or edit artists</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- <ul uk-accordion class="arrow accordian-Konstnär">
-                                                <li class="uk-open">
-                                                    <a class="uk-accordion-title size-md text-dark" href>Sandor Sandstrom Sand</a>
-                                                    <div class="uk-accordion-content">
+                                <!------ left content ------->
+                                <div class="col-md-8">
+                                    <div class="p-4">
+                                        <p class="text-address">RIW - 789, SANDOR SANDSTRÖM SAND, HUVUDET I SANDEN</p>
+                                        <br>
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Konstnär</label></div>
+                                            <div class="col-md-4">
+                                                <div class="dropdown-item-wrapper" uk-dropnav="mode: click">
+                                                    <button class="title">
+                                                        Sandor Sandstrom Sand <span uk-drop-parent-icon></span>
+                                                        <a href="" class="icn-addon">
+                                                            <i class="ph ph-pencil-simple"></i>
+                                                        </a>
+                                                    </button>
+                                                    <div class="uk-dropdown custom-dropdown-content">
                                                         <div class="items-list">
                                                             <div class="input-group-addon icon-right border-0">
                                                                 <input type="search" name="" id="" placeholder="Search">
@@ -148,255 +138,310 @@
                                                             </div>
                                                             <a href="" class="item-option"><i class="ph ph-pencil-simple"></i> Add or edit artists</a>
                                                         </div>
-                
                                                     </div>
-                                                </li>
-                                            </ul> -->
+                                                </div>
+                                                <!-- <ul uk-accordion class="arrow accordian-Konstnär">
+                                                    <li class="uk-open">
+                                                        <a class="uk-accordion-title size-md text-dark" href>Sandor Sandstrom Sand</a>
+                                                        <div class="uk-accordion-content">
+                                                            <div class="items-list">
+                                                                <div class="input-group-addon icon-right border-0">
+                                                                    <input type="search" name="" id="" placeholder="Search">
+                                                                    <i class="ph ph-magnifying-glass icon"></i>
+                                                                </div>
+                                                                <div class="items-list scroller-165">
+                                                                    <a href="" class="item">Collage</a>
+                                                                    <a href="" class="item">Fotografi</a>
+                                                                    <a href="" class="item">Grafik</a>
+                                                                    <a href="" class="item">Objekt</a>
+                                                                    <a href="" class="item">Skulptur</a>
+                                                                    <a href="" class="item">item 6</a>
+                                                                    <a href="" class="item">item 7</a>
+                                                                </div>
+                                                                <a href="" class="item-option"><i class="ph ph-pencil-simple"></i> Add or edit artists</a>
+                                                            </div>
+                    
+                                                        </div>
+                                                    </li>
+                                                </ul> -->
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Tilel</label></div>
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control" placeholder="Huvudet i sanden">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Tilel</label></div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" placeholder="Huvudet i sanden">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Tillkorista</label></div>
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control" placeholder="508">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Tillkorista</label></div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" placeholder="508">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Teknik</label></div>
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control" placeholder="Osekten">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Teknik</label></div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" placeholder="Osekten">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Material</label></div>
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control" placeholder="Olja pa duk">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Material</label></div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" placeholder="Olja pa duk">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Anteckningar</label></div>
-                                        <div class="col-md-10">
-                                            <textarea  class="form-control" cols="4" rows="10" name="" id=""></textarea>
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Anteckningar</label></div>
+                                            <div class="col-md-10">
+                                                <textarea  class="form-control" cols="4" rows="10" name="" id=""></textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-md-2"><label for="Konstnär">Nasta inventering</label></div>
-                                        <div class="col-md-4">
-                                            <input type="datetime-local" class="form-control" placeholder="">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2"><label for="Konstnär">Nasta inventering</label></div>
+                                            <div class="col-md-4">
+                                                <input type="datetime-local" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="d-flex align-items-center gap-3 flex-wrap">
+                                            <button class="btn btn-outline-light-gray radius-8">SAVE</button>
+                                            <button class="btn btn-outline-light-gray radius-8">SAVE AND CLOSE</button>
+                                            <button class="btn btn-outline-light-gray radius-8">DELETE</button>
+                                            <button class="btn btn-outline-light-gray radius-8">DUPLICATE</button>
+                                            <button class="btn btn-outline-light-gray radius-8">PRINT PDF</button>
+                                            <button class="btn btn-outline-light-gray radius-8">HISTORY</button>
+                                            <div class="d-flex align-items-center gap-2">
+                                                <button class="btn btn-outline-light-gray btn-fab fab-32">
+                                                    <i class="ph ph-caret-down"></i>
+                                                </button>
+                                                <button class="btn btn-outline-light-gray btn-fab fab-32">
+                                                    <i class="ph ph-caret-up"></i>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 ">
-                                    <h3 class="fs-16 josefin text-color mb-0">IMAGES</h3>
-                                    <br>
-                                    <div class="action-fab-tools">
-                                        <button class="tool-item" href="">
-                                            <i class="ph ph-plus"></i>
-                                        </button>
-                                        <button class="tool-item" href="">
-                                            <i class="ph ph-trash"></i>
-                                        </button>
+                                <!------ right content ------->
+                                <div class="col-md-4 ps-0 border-div-left">
+                                    <div class="p-4 border-div-bottom">
+                                        <h3 class="fs-16 josefin text-color mb-0">IMAGES</h3>
+                                        <br>
+                                        <div class="action-fab-tools">
+                                            <button class="tool-item" href="">
+                                                <i class="ph ph-plus"></i>
+                                            </button>
+                                            <button class="tool-item" href="">
+                                                <i class="ph ph-trash"></i>
+                                            </button>
+                                        </div>
+                                        <br>
+                                        <div class="starImgGrid">
+                                                <div class="starImgbox-wrapper flex-full">
+                                                    <div class="img-object-fit img-box-270">
+                                                        <img src="assets/1.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-3 py-3">
+                                                        <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
+                                                        <div class="form-check custom-form-check">
+                                                            <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="starImgbox-wrapper">
+                                                    <div class="img-object-fit img-box-120">
+                                                        <img src="assets/1.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-3 py-3">
+                                                        <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
+                                                        <div class="form-check custom-form-check">
+                                                            <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="starImgbox-wrapper">
+                                                    <div class="img-object-fit img-box-120">
+                                                        <img src="assets/1.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-3 py-3">
+                                                        <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
+                                                        <div class="form-check custom-form-check">
+                                                            <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
                                     </div>
-                                    <br>
-                                   <div class="starImgGrid">
-                                        <div class="starImgbox-wrapper flex-full">
-                                            <div class="img-object-fit img-box-270">
-                                                <img src="assets/1.jpg" alt="" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex align-items-center gap-3 py-3">
-                                                <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
-                                                <div class="form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
-                                                </div>
-                                            </div>
+                                    <div class="p-4">
+                                        <h3 class="fs-16 josefin text-color mb-0 uppr">Documents</h3>
+                                        <br>
+                                        
+                                        <div class="action-fab-tools">
+                                            <button class="tool-item" href="">
+                                                <i class="ph ph-plus"></i>
+                                            </button>
+                                            <button class="tool-item" href="">
+                                                <i class="ph ph-trash"></i>
+                                            </button>
                                         </div>
-                                        <div class="starImgbox-wrapper">
-                                            <div class="img-object-fit img-box-120">
-                                                <img src="assets/1.jpg" alt="" class="img-fluid">
+                                        <br>
+                                        <div>
+                                            <div class="d-block form-check custom-form-check">
+                                                <input class="form-check-input" type="checkbox" name="test1" id="test1">
+                                                <label class="form-check-label link text-underline" for="test1">test 1</label>
                                             </div>
-                                            <div class="d-flex align-items-center gap-3 py-3">
-                                                <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
-                                                <div class="form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
-                                                </div>
+                                            <div class="d-block form-check custom-form-check">
+                                                <input class="form-check-input" type="checkbox" name="test2" id="test2">
+                                                <label class="form-check-label link text-underline" for="test2">test 2</label>
                                             </div>
-                                        </div>
-                                        <div class="starImgbox-wrapper">
-                                            <div class="img-object-fit img-box-120">
-                                                <img src="assets/1.jpg" alt="" class="img-fluid">
-                                            </div>
-                                            <div class="d-flex align-items-center gap-3 py-3">
-                                                <a href=""  class="star-bookmark primary-color" uk-toggle="target: #startFev; cls:ph-fill primary-color"><i class="ph ph-star" id="startFev"></i></a>
-                                                <div class="form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="currentPageElds" id="Szatus">
-                                                </div>
-                                            </div>
-                                        </div>
-                                   </div>
-
-                                   <br>
-                                   <div class="line hr"></div>
-
-                                   <h3 class="fs-16 josefin text-color mb-0 uppr">Documents</h3>
-                                    <br>
-                                    <div class="action-fab-tools">
-                                        <button class="tool-item" href="">
-                                            <i class="ph ph-plus"></i>
-                                        </button>
-                                        <button class="tool-item" href="">
-                                            <i class="ph ph-trash"></i>
-                                        </button>
-                                    </div>
-                                    <br>
-                                    <div>
-                                        <div class="d-block form-check custom-form-check">
-                                            <input class="form-check-input" type="checkbox" name="test1" id="test1">
-                                            <label class="form-check-label link" for="test1">test 1</label>
-                                        </div>
-                                        <div class="d-block form-check custom-form-check">
-                                            <input class="form-check-input" type="checkbox" name="test2" id="test2">
-                                            <label class="form-check-label link" for="test2">test 2</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="location-dettail tab-inner-content">tab-3</div>
-                        <div class="economy-dettail tab-inner-content">tab-4</div>
+
+                        <!------ tab location ------->
+                        <div class="location-dettail tab-inner-content">
+                            <div class="p-4">tab-3</div>
+                        </div>
+
+                        <!------ tab economy ------->
+                        <div class="economy-dettail tab-inner-content">
+                            <div class="p-4">tab-4</div>
+                        </div>
+
+                        <!------ tab others ------->
                         <div class="others-dettail tab-inner-content">
-                            tab-5
+                            <div class="p-4">tab-4</div>
                         </div>
+                        <!------ tab alert ------->
                         <div class="alert-dettail tab-inner-content">
-                            <p class="text-address">RIW - 789, SANDOR SANDSTRÖM SAND, HUVUDET I SANDEN</p>
-                            <br>
-                            <div class="action-fab-tools">
-                                <button class="tool-item" href="">
-                                    <i class="ph ph-note-pencil"></i>
-                                </button>
-                                <button class="tool-item" href="">
-                                    <i class="ph ph-trash"></i>
-                                </button>
-                                <button class="tool-item" href="">
-                                    <i class="ph ph-plus"></i>
-                                </button>
-                            </div>
-                            <div class="uk-overflow-auto">
-                                <table class="uk-table uk-table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th class="checkbox-th">&nbsp;</th>
-                                            <th class="alert-th">Alert</th>
-                                            <th class="decription-th">Description</th>
-                                            <th class="date-th">Date</th>
-                                            <th class="alertby-th">Alert by</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="checkbox-td">
-                                                <div class="d-inline-block form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck1">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">Han inventering</span>
-                                            </td>
-                                            <td class="decription-td" uk-toggle="target:#modal-dedcription">
-                                                <p class="text-normal">Verket har blivit kantstött efter att det ställdes ut på bibliotekens vårutställning i december 2023. Bör korrigeras genom att ramen lagas och konstverket skickas för kontroll hos konservator. usce et elit sit amet enim tristique tincidunt sit amet quis orci. Fusce non facilisis mi. Nullam turpis nisi, iaculis ac tincidunt vitae, dictum quis orci. Mauris et orci vitae odio pulvinar fringilla. Orci varius natoque penatibus et magnis dis parturient montes idunt sit amet.</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">2024-01-23</span>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">oliviawstware.com</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="checkbox-td">
-                                                <div class="d-inline-block form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck2">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">Från utlaring</span>
-                                            </td>
-                                            <td class="decription-td">
-                                                <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">2004-01-12</span>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">un@kommun.se</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="checkbox-td">
-                                                <div class="d-inline-block form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck3">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">Fanning.</span>
-                                            </td>
-                                            <td class="decription-td">
-                                                <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">2004-01-12</span>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">amma@kommun.se</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="checkbox-td">
-                                                <div class="d-inline-block form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck4">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">Från utlaring</span>
-                                            </td>
-                                            <td class="decription-td">
-                                                <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">2004-01-12</span>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">un@kommun.se</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="checkbox-td">
-                                                <div class="d-inline-block form-check custom-form-check">
-                                                    <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck5">
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">Fanning.</span>
-                                            </td>
-                                            <td class="decription-td">
-                                                <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque sed purus sit amet luctus. Curabitur condimentum urna at diam tempor, a sodales mauris euismod. Aenean lorem eros, imperdiet quis ante nec, tristique vulputate lacus. Morbi varius urna eu ipsum finibus, ac dapibus nisl tristique. Aliquam vitae dictum magna. Fusce et elit sit amet enim tristique tincidunt sit amet quis orci. Fusce non facilisis mi. Nullam turpis nisi, iaculis tincidunt vitae, dictum quis orci. Mauris et orci vitae odio pulvinar fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur mus. Phasellus accumsan tristique dui, ut euismod metus tincidunt sit amet. Etiam vel eleifend nisi. Cras facilisis urna et risus pellentesque, ut aliquet elit aliquet. Mauris tincidunt quam eget justo ultricies tincidunt vel nec augue. Ut in purus malesuada, suscipit leo id, auctor lectus. Aenean tortor purus, vulputate sed elit sit amet, laoreet malesuada tortor. Vivamus dapibus ligula tempus, ullamcorper quam nec, gravida purus. Ut eget congue purus. Nulla vestibulum leo at est dapibus, ac consectetur ipsum lobortis. </p>
-                                                <p class="text-normal">Sed ultrices erat neque, in sodales nunc efficitur in. Proin bibendum consequat odio sit amet dictum. Nulla purus lorem, dignis</p>
-                                                      
+                            <div class="p-4">
+                                <p class="text-address">RIW - 789, SANDOR SANDSTRÖM SAND, HUVUDET I SANDEN</p>
+                                <br>
+                                <div class="action-fab-tools">
+                                    <button class="tool-item" href="">
+                                        <i class="ph ph-note-pencil"></i>
+                                    </button>
+                                    <button class="tool-item" href="">
+                                        <i class="ph ph-trash"></i>
+                                    </button>
+                                    <button class="tool-item" href="">
+                                        <i class="ph ph-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="uk-overflow-auto">
+                                    <table class="uk-table uk-table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="checkbox-th">&nbsp;</th>
+                                                <th class="alert-th">Alert</th>
+                                                <th class="decription-th">Description</th>
+                                                <th class="date-th">Date</th>
+                                                <th class="alertby-th">Alert by</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="checkbox-td">
+                                                    <div class="d-inline-block form-check custom-form-check">
+                                                        <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck1">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">Han inventering</span>
+                                                </td>
+                                                <td class="decription-td" uk-toggle="target:#modal-dedcription">
+                                                    <p class="text-normal">Verket har blivit kantstött efter att det ställdes ut på bibliotekens vårutställning i december 2023. Bör korrigeras genom att ramen lagas och konstverket skickas för kontroll hos konservator. usce et elit sit amet enim tristique tincidunt sit amet quis orci. Fusce non facilisis mi. Nullam turpis nisi, iaculis ac tincidunt vitae, dictum quis orci. Mauris et orci vitae odio pulvinar fringilla. Orci varius natoque penatibus et magnis dis parturient montes idunt sit amet.</p>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">2024-01-23</span>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">oliviawstware.com</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="checkbox-td">
+                                                    <div class="d-inline-block form-check custom-form-check">
+                                                        <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck2">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">Från utlaring</span>
+                                                </td>
+                                                <td class="decription-td">
+                                                    <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">2004-01-12</span>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">un@kommun.se</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="checkbox-td">
+                                                    <div class="d-inline-block form-check custom-form-check">
+                                                        <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck3">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">Fanning.</span>
+                                                </td>
+                                                <td class="decription-td">
+                                                    <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">2004-01-12</span>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">amma@kommun.se</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="checkbox-td">
+                                                    <div class="d-inline-block form-check custom-form-check">
+                                                        <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck4">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">Från utlaring</span>
+                                                </td>
+                                                <td class="decription-td">
+                                                    <p class="text-normal">Ny placering: bloteket, van 2, rum 543</p>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">2004-01-12</span>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">un@kommun.se</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="checkbox-td">
+                                                    <div class="d-inline-block form-check custom-form-check">
+                                                        <input class="form-check-input" type="checkbox" name="tblcheck" id="tblcheck5">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">Fanning.</span>
+                                                </td>
+                                                <td class="decription-td">
+                                                    <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque sed purus sit amet luctus. Curabitur condimentum urna at diam tempor, a sodales mauris euismod. Aenean lorem eros, imperdiet quis ante nec, tristique vulputate lacus. Morbi varius urna eu ipsum finibus, ac dapibus nisl tristique. Aliquam vitae dictum magna. Fusce et elit sit amet enim tristique tincidunt sit amet quis orci. Fusce non facilisis mi. Nullam turpis nisi, iaculis tincidunt vitae, dictum quis orci. Mauris et orci vitae odio pulvinar fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur mus. Phasellus accumsan tristique dui, ut euismod metus tincidunt sit amet. Etiam vel eleifend nisi. Cras facilisis urna et risus pellentesque, ut aliquet elit aliquet. Mauris tincidunt quam eget justo ultricies tincidunt vel nec augue. Ut in purus malesuada, suscipit leo id, auctor lectus. Aenean tortor purus, vulputate sed elit sit amet, laoreet malesuada tortor. Vivamus dapibus ligula tempus, ullamcorper quam nec, gravida purus. Ut eget congue purus. Nulla vestibulum leo at est dapibus, ac consectetur ipsum lobortis. </p>
+                                                    <p class="text-normal">Sed ultrices erat neque, in sodales nunc efficitur in. Proin bibendum consequat odio sit amet dictum. Nulla purus lorem, dignis</p>
                                                         
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">2004-01-12</span>
-                                            </td>
-                                            <td>
-                                                <span class="text-normal">amma@kommun.se</span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                                            
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">2004-01-12</span>
+                                                </td>
+                                                <td>
+                                                    <span class="text-normal">amma@kommun.se</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
